@@ -1,0 +1,59 @@
+/* globals.css*/
+.body {
+  margin: 2;
+  padding: 2;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bg-container {
+    width: 100vw; /* full viewport width*/
+    padding: 20px; /*potional padding*/
+    height: 100vh;/* full viewport height*/
+    background-color: #6f88a3;/* set your desired color*/
+}
+  
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-between;
+}
+  
+.textBox {
+    width: 66%;
+    padding: 20px;
+    background-color: #f7fafc;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+  
+.imageBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image {
+    border-radius: 50%;
+    box-shadow: 0 10px 15px rgba(8, 8, 8, 0.1);
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+    background-color: #283747;
+    padding: 1rem;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+}
+
+
